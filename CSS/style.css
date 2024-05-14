@@ -9,3 +9,8 @@ h1 {
     padding: 1rem;
     text-align: center;
 }
+
+i {
+    padding: 1rem;
+    color: red
+}

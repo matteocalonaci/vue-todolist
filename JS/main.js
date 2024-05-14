@@ -39,7 +39,11 @@ createApp({
             console.log(this.text)
             this.myList.push(this.text)
             this.text = ""
-        }
+        },
+        remuveButton(index) {
+            this.myList.splice(index, 1);
+            console.log(index, this.myList);
+        },
 
 
 
