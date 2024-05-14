@@ -14,28 +14,16 @@
     <div id="app">
         <h1> {{ titolo }}</h1>
         <hr>
-        <ul class="ul">{{ul}}</ul>
+        <!-- <ul class="ul">{{ul}}</ul> -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <!-- STAMPA ELEMENTI DI ARRAY CON VEU -->
+        <ul class="ul">{{ul}}
+            <li v-for="action, i in myList">
+                {{action}}
+            </li>
+        </ul>
+        <input type="text" v-model="text" placeholder="Add azione">
+        <button @click="addButton">ADD</button>
 
     </div>
 
