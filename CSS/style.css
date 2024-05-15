@@ -14,7 +14,7 @@ h1 {
 
 .container {
     margin: auto;
-    width: 17rem;
+    width: 22rem;
 
 }
 
@@ -25,21 +25,39 @@ h1 {
 
 li,
 ul {
-    color: white;
+    color: black;
+    margin: 1rem;
+}
+
+li {
     padding: 0.5rem;
+    background-color: aliceblue;
+    border-radius: 2rem;
+    width: 7rem;
+    text-align: center;
 }
 
 i {
     padding: 1rem;
-    color: red
+    color: red;
+    font-size: 2rem;
+
 }
 
 body {
-    background-color: #222222
+    height: 100vh;
+    background-color: #222222;
 }
 
 button {
     background-color: rgb(0, 76, 255);
     color: white;
+    border-radius: 2rem;
+    padding: 1rem;
     border: 0.1rem solid rgb(0, 76, 255);
+}
+
+input {
+    border-radius: 2rem;
+    padding: 1rem;
 }
